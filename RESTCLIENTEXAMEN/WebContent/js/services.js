@@ -4,7 +4,7 @@ angular.module('ProductApp.services', []).
 
     factory('ProductService', ['$http',
         function($http) {
-            var restUrl = 'http://localhost:8080/REST/products';
+            var restUrl = 'http://localhost:8080/RESTEXAMEN/products';
 
             return {
             	getProductsJSON : function() {
