@@ -24,6 +24,7 @@ angular.module('ProductApp.controllers', []).
         
     ]).
     
+    //Nieuw product wordt in JSONString gestoken
     controller('NewProductController', ['$scope', 'ProductService',
           function($scope, ProductService) {
     		$scope.addProduct = function() {
